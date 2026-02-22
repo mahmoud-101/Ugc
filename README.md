@@ -1,11 +1,52 @@
-<div align="center">
+# Remix: UGC Advertising Pro 🚀
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**Remix: UGC Advertising Pro** هو أداة متطورة تعتمد على الذكاء الاصطناعي لإنشاء سيناريوهات (Storyboards) وصور إعلانية احترافية للمنتجات في ثوانٍ معدودة. التطبيق مصمم خصيصاً للمسوقين وأصحاب المشاريع في العالم العربي لإنتاج محتوى إعلاني عالي التأثير (UGC).
 
-  <h1>Built with AI Studio</h2>
+## ✨ المميزات
+- **تحليل ذكي للمنتج:** فهم تلقائي لمميزات المنتج من خلال الصورة.
+- **سيناريوهات إعلانية احترافية:** إنشاء مشاهد مقسمة بأسلوب وكالات الإعلانات.
+- **دعم اللهجات العربية:** يدعم اللهجة المصرية والخليجية لضمان وصول الرسالة للجمهور المستهدف.
+- **توليد صور بالذكاء الاصطناعي:** معاينة بصرية لكل مشهد في السيناريو.
+- **واجهة مستخدم عصرية:** تدعم الوضع الليلي (Dark Mode) وتجربة مستخدم سلسة.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🛠 التقنيات المستخدمة
+- **React 19** & **TypeScript**
+- **Vite** (للبناء السريع)
+- **Tailwind CSS** (للتصميم)
+- **Google Gemini API** (لتحليل الصور وتوليد المحتوى والصور)
+- **Lucide React** (للأيقونات)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🚀 التشغيل السريع
 
-</div>
+### 1. المتطلبات
+- Node.js (إصدار 18 أو أحدث)
+- مفتاح API من [Google AI Studio](https://aistudio.google.com/)
+
+### 2. التثبيت
+```bash
+# تحميل المشروع
+git clone https://github.com/YOUR_USERNAME/ugc-advertising-pro.git
+
+# الدخول للمجلد
+cd ugc-advertising-pro
+
+# تثبيت المكتبات
+npm install
+```
+
+### 3. الإعدادات
+قم بإنشاء ملف `.env` في المجلد الرئيسي وأضف مفتاح الـ API الخاص بك:
+```env
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+### 4. التشغيل
+```bash
+npm run dev
+```
+
+## 📝 ملاحظة
+هذا المشروع تم بناؤه كأداة لمساعدة المسوقين على الابتكار السريع. تأكد من مراجعة السيناريوهات وتعديلها بما يتناسب مع هوية علامتك التجارية.
+
+---
+تم التطوير بكل ❤️ لدعم المحتوى الإعلاني العربي.

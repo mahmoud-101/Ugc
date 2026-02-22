@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UGC advertising Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "jszip": "https://esm.sh/jszip@3.10.1"
+  }
+}
+</script>
+<style>
+    :root {
+      --color-peach: #e59f71;
+      --color-sand: #d8b97e;
+      --color-cream: #e3d9a7;
+      --color-teal: #7ca3a4;
+      --color-slate: #5b7b89;
+      
+      --color-primary: var(--color-peach);
+      --color-primary-hover: #e0915a;
+      --color-secondary: var(--color-teal);
+      
+      /* Light Mode */
+      --color-bg: #fdfcf9;
+      --color-bg-alt: #ffffff;
+      --color-text: #3c515a;
+      --color-text-muted: #5b7b89;
+      --color-border: #e3d9a7;
+    }
+
+    .dark {
+      --color-primary: var(--color-peach);
+      --color-primary-hover: #e0915a;
+      --color-secondary: var(--color-teal);
+
+      /* Dark Mode */
+      --color-bg: #2a383f;
+      --color-bg-alt: #3c515a;
+      --color-text: #fdfcf9;
+      --color-text-muted: #e3d9a7;
+      --color-border: #5b7b89;
+    }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-[--color-bg] text-[--color-text] transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
